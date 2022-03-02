@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name1">Design Image : Download</string>
+    <string name="opensource">Copyright 2016, Arthur Teplitzki,2013,Edmodo, Inc.
+        Licensed under the Apache License, Version 2.0\n(the "License");\n
+        you may not use this work except in compliance with the License.\n
+        You may obtain a copy of the License in the LICENSE file,\n
+        or at:http://www.apache.org/licenses/LICENSE-2.0\n
+        Unless required by applicable law or agreed to in writing,\n
+        software distributed under the License is distributed on an\n
+        "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,\n
+        either express or implied. See the License for the\n
+        specific language governing permissions and limitations under the License.\n
+    </string>
+    <string name="Dashboard" formatted="true"><b>Select Your Mood!\nअपने मूड का चयन करे </b></string>
+    <string name="Dashboard2" formatted="true"><b>Status!\nस्टेटस</b></string>
+    <string name="TopNmae"><b> Dashboard</b></string>
+    <string name="splash">Best\nShayari And Status</string>
+
+    <string name="love11">Love</string>
+    <string name="love12">लव</string>
+
+    <string name="beauity11">Beauty</string>
+    <string name="beauity12">ब्यूटी</string>
+
+    <string name="bewwafa11">Bewafa</string>
+    <string name="bewafa12">बेवफा</string>
+
+    <string name="atti11">Attitude</string>
+    <string name="atti12">ऐटिटूड</string>
+
+    <string name="romantic11">Romantic</string>
+    <string name="romantic12">रोमांटिक</string>
+
+    <string name="life11"> Life</string>
+    <string name="life12">लाइफ</string>
+
+    <string name="yaad11">Yaad</string>
+    <string name="yaad12">याद</string>
+
+    <string name="dosti11">Dosti</string>
+    <string name="dosti12">दोस्ती</string>
+
+    <string name="birthday11">Birthday</string>
+    <string name="birthday12">बर्थडे</string>
+    <string name="dard11">Dard</string>
+    <string name="dard12">दर्द</string>
+
+    <string name="festival11">Festival</string>
+    <string name="festival12">फेस्टिवल</string>
+
+    <string name="desh11">DeshBhakti</string>
+    <string name="desh12">देशभक्ति</string>
+
+    <string name="funny11">Funny</string>
+    <string name="funny12">फनी</string>
+
+    <string name="night11">Night</string>
+    <string name="night12">नाईट</string>
+
+    <string name="morning11">Morning</string>
+    <string name="moring12">मॉर्निंग</string>
+
+    <string name="poems11">Poem</string>
+    <string name="poems12">पोयम्स</string>
+
+    <string name="motivation11">Motivation</string>
+    <string name="motivation12">मोटिवेशन</string>
+
+    <string name="valentine11">Valentine</string>
+    <string name="valentine12">वैलेंटाइन</string>
+
+    <string name="tru11">True</string>
+    <string name="tru12">सही</string>
+
+    <string name="sorry11">Sorry</string>
+    <string name="sorry12">सॉरी</string>
+
+    <string name="sharabi11">Sharabi</string>
+    <string name="sharabi12">शराबी</string>
+
+    <string name="missyou11">Miss You</string>
+    <string name="missyou12">मिस यूी</string>
+
+
+</resources>

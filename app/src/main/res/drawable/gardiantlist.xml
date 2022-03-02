@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/gardiant"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/gardiant2"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist3"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist4"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist5"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist6"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist7"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist8"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist9"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/grlist10"
+        android:duration="4000"/>
+
+
+</animation-list>

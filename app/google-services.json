@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924492074825",
+    "project_id": "shayari-47296",
+    "storage_bucket": "shayari-47296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924492074825:android:b82def91c1bc60fcee1498",
+        "android_client_info": {
+          "package_name": "com.KIPTSOFT.Shayari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924492074825-cv686342kvdrcr2uai79luknv2hk2mtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPrY1J8GmC8z_YAT_WEEVzwt0WJqgiB_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924492074825-cv686342kvdrcr2uai79luknv2hk2mtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

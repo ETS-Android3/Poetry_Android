@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/Linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#0D070707"
+        android:elevation="10dp">
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/back"
+            android:padding="30dp" />
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+
+            android:layout_toEndOf="@+id/backbutton"
+            android:fontFamily="@font/font3"
+            android:gravity="center_horizontal|center|start"
+            android:text=" Status "
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="94dp"
+                    android:fontFamily="@font/font3"
+                    android:gravity="start"
+                    android:paddingLeft="8dp"
+                    android:text="Best Status\nShare\nEdit\nDownload"
+                    android:textSize="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView"
+
+                    app:layout_constraintHorizontal_bias="0.115"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <com.airbnb.lottie.LottieAnimationView
+
+                    android:id="@+id/lottieAnimationView"
+                    android:layout_width="194dp"
+
+                    android:layout_height="91dp"
+
+                    android:layout_gravity="end"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/socialmediagirl"
+                    app:lottie_speed="1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+
+                android:alignmentMode="alignBounds"
+                android:columnCount="2"
+
+                android:rowCount="10">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mahakals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#FF9626"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Mahakal"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="महाकाल  स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="right|end"
+                            android:src="@drawable/maha">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/statusc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+                    app:cardBackgroundColor="#0AD8F1"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Attitude"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="ऐटिटूड स्टेटस       "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/attitude">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dardedills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#FDF43A3A"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Dill        "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="दिल  "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/statusbroken">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/girlattitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#FF6D00"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Girls Attitude   "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="गर्ल्स ऐटिटूड "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/girlsatti">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/randoms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#595959"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Random"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="सभी एक मैं         "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/romantic5">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/lifes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#38A398"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Life"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/funnystatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#065B83"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Funny Status"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="मजेदार स्टेटस"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/animation_view"
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/funny" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/twolinestatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#2f5d62"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Two Line Status"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="मजेदार स्टेटस"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/story" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1"
+
+                    android:alignmentMode="alignBounds"
+                    android:columnCount="1"
+
+                    android:rowCount="10">
+
+
+
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+

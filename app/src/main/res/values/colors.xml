@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="r1">#005378</color>
+    <color name="r2">#FFDC00</color>
+    <color name="r3">#DD2C00</color>
+    <color name="r4">#FF6D00</color>
+    <color name="r5">#C51162</color>
+    <color name="r6">#AA00FF</color>
+    <color name="r7">#00C853</color>
+    <color name="r8">#000000</color>
+    <color name="c9">#30afe3</color>
+    <color name="c10">#f1654c</color>
+    <color name="c11">#1f344c</color>
+    <color name="c12">#007aff</color>
+    <color name="c13">#4cd964</color>
+    <color name="c14">#ff9500</color>
+    <color name="c15">#008080</color>
+    <color name="c16">#6200EA</color>
+
+
+
+    <color name="r10">#8895C6</color>
+    <color name="r11">#434655</color>
+    <color name="r12">#7293A0</color>
+    <color name="r13">#45B69C</color>
+    <color name="r14">#21D19F</color>
+    <color name="r15">#FF99C8</color>
+    <color name="r16">#468E64</color>
+    <color name="r17">#1DE9B6</color>
+    <color name="r18">#A9DEF9</color>
+    <color name="r19">#E4C1F9</color>
+    <color name="r20">#D0B8AC</color>
+    <color name="r21">#FF904A</color>
+    <color name="r22">#FFC38D</color>
+    <color name="r23">#809BCE</color>
+    <color name="r24">#95B8D1</color>
+    <color name="r25">#B8E0D2</color>
+    <color name="r26">#8CBDA2</color>
+    <color name="r27">#BF89A1</color>
+    <color name="r28">#FFFFFF</color>
+    <color name="r29">#CB9173</color>
+    <color name="r31">#F2DFD7</color>
+    <color name="r32">#B77FFD</color>
+    <color name="r33">#9F9FED</color>
+    <color name="r34">#978E90</color>
+    <color name="r35">#269576</color>
+
+
+</resources>

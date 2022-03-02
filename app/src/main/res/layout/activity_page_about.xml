@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:background="@drawable/gardiantlist"
+    android:id="@+id/sc"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_about">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="35dp"
+            android:id="@+id/Relativelayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="?actionBarSize"
+
+
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/font3"
+                android:paddingTop="10dp"
+                android:text="OFFER BY :- KIPTSOFT"
+                android:textAlignment="center"
+
+                android:textSize="35dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@id/Relativelayout"
+            android:layout_margin="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Application Description"/>
+
+        <TextView
+            android:id="@+id/NAV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Relativelayout"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/aboutpageshape"
+            android:fontFamily="@font/hindi2"
+            android:padding="20sp"
+            android:text="नए ऑल-राउंडर शायरी ऐप में आपका स्वागत है, इस ऐप में आप शायरी की हर श्रेणी पा सकते हैं और उन्हें एडिट या शेयर,कॉपी कर दोस्तों या  स्टेटस पर सेंड कर सकते है, मुझे उम्मीद है कि आप को यह एप्लीकेशन पशंद आएगी
+यदि इस एप्लीकेशन का उपयोग करते समय आपको कोई परेशानी हो तो निचे दी गयी जानकारी से आप मुझे संपर्क कर सकते है।
+और हां हमें RATE देना न भूले। "
+            android:textSize="16dp">
+
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NAV"
+            android:layout_margin="25dp"
+
+            android:textSize="20dp"
+            android:text="Contect Us"/>
+
+        <LinearLayout
+            android:id="@+id/LL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/NAV"
+
+            android:layout_margin="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/telegram"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/telegram"
+                >
+
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Via Telegrame"
+                android:gravity="center"/>
+            <ImageView
+                android:id="@+id/gmail"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mail">
+
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Via Mail"
+                android:gravity="center"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/Linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#0D070707"
+        android:elevation="10dp">
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/back"
+            android:padding="30dp" />
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+
+            android:layout_toEndOf="@+id/backbutton"
+            android:fontFamily="@font/font3"
+            android:gravity="center_horizontal|center|start"
+            android:text=" Festival "
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+
+                android:alignmentMode="alignBounds"
+                android:columnCount="2"
+
+                android:rowCount="10">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dewali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#457b9d"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#A6361B"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Dewali"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/holi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+                    app:cardBackgroundColor="#0AD8F1"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FF6D00"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Holi"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dardedills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#6d6875"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#22957E"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Raksh\nBandhan"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/girlattitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#264653"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#1CC5A2"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Mothers Day"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/randoms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#F87B29"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#A0C534"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Independa"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#14213d"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#DD5617"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Janmashatmi"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00C853"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Christmas"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#38A398"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00BFA5"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Eid"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#38A398"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00B8D4"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="New Year"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#38A398"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#0091EA"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Onam"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:backgroundTintMode="src_over"
+                    android:elevation="10sp"
+
+                    app:cardBackgroundColor="#38A398"
+                    app:cardCornerRadius="5sp"
+                    app:cardElevation="4sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#0091EA"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/lifestatus">
+
+
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="Republic\nDay"
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/font3"
+                        android:text="लाइफ स्टेटस "
+                        android:textColor="@color/white"
+
+                        android:textSize="15dp"
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
